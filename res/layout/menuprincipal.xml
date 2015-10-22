@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_gerirDisciplinas"
+        android:layout_width="319dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:text="Gerir Disciplinas" />
+
+    <Button
+        android:id="@+id/btn_visualizador"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:text="Visualizador" />
+
+    <Button
+        android:id="@+id/btn_simulador"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:text="Simulador" />
+
+    <Button
+        android:id="@+id/btn_opcoes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:text="Opções" />
+
+    <Button
+        android:id="@+id/btn_sair"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:text="Sair" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_sec"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="Ensino Básico/Secundário" />
+
+    <Button
+        android:id="@+id/btn_sup"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="Ensino Superior" />
+
+</LinearLayout>

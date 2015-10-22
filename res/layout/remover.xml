@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget164"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<Button
+    android:id="@+id/removerteste"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="30dp"
+    android:text="Remover Teste/Exame"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/voltarremover"
+    android:layout_width="112dp"
+    android:layout_height="37dp"
+    android:layout_x="103dp"
+    android:layout_y="428dp"
+    android:text="Voltar"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/removertrabalho"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="2dp"
+    android:layout_y="116dp"
+    android:text="Remover Trabalho/Projecto"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/removeroutrascomponentes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="2dp"
+    android:layout_y="202dp"
+    android:text="Remover Outras Componentes"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/removerdisciplina"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="2dp"
+    android:layout_y="296dp"
+    android:text="Remover disciplina"
+    android:textSize="15sp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget164"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/calcularmediadisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="4dp"
+        android:text="Disciplina"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/calcularmedianota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="270dp"
+        android:layout_y="6dp"
+        android:text="Nota"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/calcularmedianota1"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="26dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/calcularmedianota2"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="66dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    
+    <EditText
+        android:id="@+id/calcularmedianota3"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="106dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    
+    <EditText
+        android:id="@+id/calcularmedianota4"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="146dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/calcularmedianota5"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="186dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/calcularmedianota6"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="226dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+     <EditText
+        android:id="@+id/calcularmedianota7"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="266dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+      <EditText
+        android:id="@+id/calcularmedianota8"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="306dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+       <EditText
+        android:id="@+id/calcularmedianota9"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="346dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+       <TextView
+           android:id="@+id/calcularmediadisc1"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="26dp"
+           android:gravity="center"
+           android:text="Disciplina1"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+       <TextView
+           android:id="@+id/calcularmediadisc2"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="66dp"
+           android:text="Disciplina2"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+           android:id="@+id/calcularmediadisc3"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="106dp"
+           android:text="Disciplina3"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       
+       <TextView
+           android:id="@+id/calcularmediadisc4"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="146dp"
+           android:text="Disciplina4"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+           android:id="@+id/calcularmediadisc5"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="186dp"
+           android:text="Disciplina5"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+           android:id="@+id/calcularmediadisc6"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="226dp"
+           android:text="Disciplina6"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+           android:id="@+id/calcularmediadisc7"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="266dp"
+           android:text="Disciplina7"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+           android:id="@+id/calcularmediadisc8"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="306dp"
+           android:text="Disciplina8"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+           android:id="@+id/calcularmediadisc9"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="346dp"
+           android:text="Disciplina9"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+           android:id="@+id/calcularmediadisc10"
+           android:layout_width="237dp"
+           android:layout_height="40dp"
+           android:layout_x="0dp"
+           android:layout_y="386dp"
+           android:text="Media"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <Button
+           android:id="@+id/calcularmediaactualiza"
+           android:layout_width="108dp"
+           android:layout_height="wrap_content"
+           android:layout_x="102dp"
+           android:layout_y="432dp"
+           android:text="Actualizar" />
+
+       <Button
+           android:id="@+id/calcularmediavoltar"
+           android:layout_width="98dp"
+           android:layout_height="wrap_content"
+           android:layout_x="-3dp"
+           android:layout_y="432dp"
+           android:text="Voltar" />
+
+       <Button
+           android:id="@+id/calcularmediaseguinte"
+           android:layout_width="104dp"
+           android:layout_height="wrap_content"
+           android:layout_x="215dp"
+           android:layout_y="432dp"
+           android:text="Seguinte" />
+
+       <TextView
+           android:id="@+id/calcularmediamedia10"
+           android:layout_width="82dp"
+           android:layout_height="40dp"
+           android:layout_x="237dp"
+           android:layout_y="388dp"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>

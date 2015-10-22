@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/criadisciplina"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/textonomedisciplina"
+	android:layout_width="320dp"
+	android:layout_height="20dp"
+	android:text="Insira o nome da disciplina:"
+	android:textStyle="bold"
+	android:layout_x="0dp"
+	android:layout_y="2dp" />
+<EditText
+	android:id="@+id/nomedisc"
+	android:layout_width="127dp"
+	android:layout_height="33dp"
+	android:text="Disciplina"
+	android:textSize="12sp"
+	android:layout_x="3dp"
+	android:layout_y="22dp" />
+<TextView
+	android:id="@+id/textodiasaulas"
+	android:layout_width="319dp"
+	android:layout_height="wrap_content"
+	android:text="Dias de aulas"
+	android:textSize="15sp"
+	android:textStyle="bold"
+	android:layout_x="3dp"
+	android:layout_y="53dp" />
+<EditText
+	android:id="@+id/durasegunda"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Dura&#231;&#227;o"
+	android:textSize="12sp"
+	android:layout_x="190dp"
+	android:layout_y="83dp"
+	android:inputType="number" />
+
+<EditText
+	android:id="@+id/salasegunda"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Sala"
+	android:textSize="12sp"
+	android:layout_x="265dp"
+	android:layout_y="84dp" />
+<EditText
+	android:id="@+id/duraquarta"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Dura&#231;&#227;o"
+	android:textSize="12sp"
+	android:layout_x="190dp"
+	android:layout_y="183dp"
+	android:inputType="number" />
+
+<EditText
+	android:id="@+id/duraterca"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Dura&#231;&#227;o"
+	android:textSize="12sp"
+	android:layout_x="190dp"
+	android:layout_y="132dp"
+	android:inputType="number" />
+
+<EditText
+	android:id="@+id/durasexta"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Dura&#231;&#227;o"
+	android:textSize="12sp"
+	android:layout_x="190dp"
+	android:layout_y="283dp"
+	android:inputType="number" />
+
+<EditText
+	android:id="@+id/duraquinta"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Dura&#231;&#227;o"
+	android:textSize="12sp"
+	android:layout_x="190dp"
+	android:layout_y="232dp"
+	android:inputType="number" />
+
+<EditText
+	android:id="@+id/salaterca"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Sala"
+	android:textSize="12sp"
+	android:layout_x="265dp"
+	android:layout_y="131dp" />
+<EditText
+	android:id="@+id/salaquarta"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Sala"
+	android:textSize="12sp"
+	android:layout_x="264dp"
+	android:layout_y="183dp" />
+<EditText
+	android:id="@+id/salaquinta"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Sala"
+	android:textSize="12sp"
+	android:layout_x="264dp"
+	android:layout_y="233dp" />
+<EditText
+	android:id="@+id/salasexta"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Sala"
+	android:textSize="12sp"
+	android:layout_x="264dp"
+	android:layout_y="282dp" />
+
+<Button
+	android:id="@+id/horaquarta"
+	android:layout_width="97dp"
+	android:layout_height="wrap_content"
+	android:text="Hora de in&#237;cio"
+	android:layout_x="77dp"
+	android:layout_y="179dp" />
+<Button
+	android:id="@+id/horaquinta"
+	android:layout_width="95dp"
+	android:layout_height="wrap_content"
+	android:text="Hora de in&#237;cio"
+	android:layout_x="77dp"
+	android:layout_y="229dp" />
+<Button
+	android:id="@+id/horasexta"
+	android:layout_width="96dp"
+	android:layout_height="wrap_content"
+	android:text="Hora de in&#237;cio"
+	android:layout_x="77dp"
+	android:layout_y="278dp" />
+
+<EditText
+    android:id="@+id/sigladisc"
+    android:layout_width="127dp"
+    android:layout_height="33dp"
+    android:layout_x="140dp"
+    android:layout_y="22dp"
+    android:ems="10"
+    android:text="Sigla"
+    android:textSize="12sp" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/horasegunda"
+    android:layout_width="98dp"
+    android:layout_height="wrap_content"
+    android:layout_x="76dp"
+    android:layout_y="79dp"
+    android:text="Hora de início" />
+
+<ToggleButton
+    android:id="@+id/togglesegunda"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="6dp"
+    android:layout_y="84dp"
+    android:hint="Segunda"
+    android:textOff="Segunda"
+    android:textOn="Segunda" />
+
+<ToggleButton
+    android:id="@+id/toggleterca"
+    android:layout_width="65dp"
+    android:layout_height="wrap_content"
+    android:layout_x="5dp"
+    android:layout_y="132dp"
+    android:textOff="Terça"
+    android:textOn="Terça" />
+
+<Button
+    android:id="@+id/horaterca"
+    android:layout_width="97dp"
+    android:layout_height="wrap_content"
+    android:layout_x="76dp"
+    android:layout_y="128dp"
+    android:text="Hora de início" />
+
+<ToggleButton
+    android:id="@+id/togglequinta"
+    android:layout_width="65dp"
+    android:layout_height="wrap_content"
+    android:layout_x="6dp"
+    android:layout_y="232dp"
+    android:textOff="Quinta"
+    android:textOn="Quinta" />
+
+<ToggleButton
+    android:id="@+id/togglesexta"
+    android:layout_width="65dp"
+    android:layout_height="wrap_content"
+    android:layout_x="6dp"
+    android:layout_y="281dp"
+    android:textOff="Sexta"
+    android:textOn="Sexta" />
+
+<ToggleButton
+    android:id="@+id/togglequarta"
+    android:layout_width="65dp"
+    android:layout_height="wrap_content"
+    android:layout_x="6dp"
+    android:layout_y="184dp"
+    android:textOff="Quarta"
+    android:textOn="Quarta" />
+
+<Button
+    android:id="@+id/voltacriadisc"
+    android:layout_width="75dp"
+    android:layout_height="wrap_content"
+    android:layout_x="10dp"
+    android:layout_y="377dp"
+    android:text="Voltar" />
+
+<Button
+    android:id="@+id/seguintecriadisc"
+    android:layout_width="107dp"
+    android:layout_height="wrap_content"
+    android:layout_x="210dp"
+    android:layout_y="376dp"
+    android:text="Seguinte"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/concluircriadisc"
+    android:layout_width="75dp"
+    android:layout_height="wrap_content"
+    android:layout_x="112dp"
+    android:layout_y="376dp"
+    android:text="Concluir" />
+
+</AbsoluteLayout>

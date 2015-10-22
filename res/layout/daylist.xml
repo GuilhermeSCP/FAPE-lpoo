@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/Horario_Sigla"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Teacher"
+	android:layout_alignTop="@+id/Horario_Duracao"
+	android:layout_alignParentRight="true" />
+<TextView
+	android:id="@+id/Horario_Duracao"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="End"
+	android:layout_alignTop="@+id/Horario_Disciplina"
+	android:layout_alignLeft="@+id/Horario_Hora" />
+<TextView
+	android:id="@+id/Horario_Hora"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Start"
+	android:layout_alignParentTop="true"
+	android:layout_toRightOf="@+id/colorLabel" />
+<View
+	android:id="@+id/colorLabel"
+	android:layout_width="5dip"
+	android:layout_height="fill_parent"
+	android:background="#ffffffff"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true" />
+<TextView
+	android:id="@+id/Horario_Disciplina"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip"
+	android:text="Course"
+	android:layout_centerVertical="true"
+	android:layout_centerHorizontal="true" />
+<TextView
+	android:id="@+id/Horario_Sala"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Class"
+	android:layout_below="@+id/Horario_Hora"
+	android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget164"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Button
+    android:id="@+id/adicionarteste"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="30dp"
+    android:text="Adicionar Teste"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/adicionaroutrascomponentes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="285dp"
+    android:text="Adicionar Outras Componentes"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/adicionarexame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="198dp"
+    android:text="Adicionar Exame"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/adicionartrabalho"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="111dp"
+    android:text="Adicionar Trabalho/Projecto"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/voltargerirdisciplinas"
+    android:layout_width="112dp"
+    android:layout_height="37dp"
+    android:layout_x="103dp"
+    android:layout_y="428dp"
+    android:text="Voltar"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/remover"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="2dp"
+    android:layout_y="360dp"
+    android:text="Remover"
+    android:textSize="15sp" />
+
+</AbsoluteLayout>

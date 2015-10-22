@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/addteste"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/textoselecdia"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Escolher dia:"
+	android:textSize="15sp"
+	android:layout_x="14dp"
+	android:layout_y="15dp" />
+
+<DatePicker
+    android:id="@+id/addtestedatepicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="12dp"
+    android:layout_y="38dp" />
+
+<Button
+    android:id="@+id/addtestevoltar"
+    android:layout_width="66dp"
+    android:layout_height="wrap_content"
+    android:layout_x="54dp"
+    android:layout_y="406dp"
+    android:text="Voltar"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/addtesteadicionar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="148dp"
+    android:layout_y="406dp"
+    android:text="Adicionar"
+    android:textSize="15sp" />
+
+<TextView
+    android:id="@+id/texto_addtestepercent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="4dp"
+    android:layout_y="366dp"
+    android:text="Percentagem da nota final:"
+    android:textSize="15sp" />
+
+<TextView
+    android:id="@+id/texto_addtestesimbpercent"
+    android:layout_width="19dp"
+    android:layout_height="24dp"
+    android:layout_x="228dp"
+    android:layout_y="366dp"
+    android:text="%"
+    android:textSize="15sp" />
+
+<EditText
+    android:id="@+id/addtestepercent"
+    android:layout_width="39dp"
+    android:layout_height="wrap_content"
+    android:layout_x="189dp"
+    android:layout_y="354dp"
+    android:ems="10"
+    android:text="0"
+    android:textSize="12sp" />
+
+<TextView
+    android:id="@+id/texto_addtestedura"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="5dp"
+    android:layout_y="326dp"
+    android:text="Duração"
+    android:textSize="15sp" />
+
+<EditText
+    android:id="@+id/addtestedura"
+    android:layout_width="96dp"
+    android:layout_height="wrap_content"
+    android:layout_x="66dp"
+    android:layout_y="314dp"
+    android:ems="10"
+    android:text="em minutos"
+    android:textSize="12sp" >
+
+    <requestFocus />
+</EditText>
+
+<Spinner
+    android:id="@+id/spinnerdisc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="184dp"/>
+
+<Button
+    android:id="@+id/addtesteselechora"
+    android:layout_width="135dp"
+    android:layout_height="wrap_content"
+    android:layout_x="5dp"
+    android:layout_y="260dp"
+    android:text="Escolher hora" />
+
+<TextView
+    android:id="@+id/texto_addtestesala"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="183dp"
+    android:layout_y="270dp"
+    android:text="Salas:"
+    android:textSize="15sp" />
+
+<EditText
+    android:id="@+id/addtestesala"
+    android:layout_width="90dp"
+    android:layout_height="wrap_content"
+    android:layout_x="223dp"
+    android:layout_y="258dp"
+    android:ems="10"
+    android:textSize="12sp" />
+
+</AbsoluteLayout>

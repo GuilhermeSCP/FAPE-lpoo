@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget187"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:id="@+id/texto_addtrabdatalimentrega"
+    android:layout_width="216dp"
+    android:layout_height="wrap_content"
+    android:layout_x="18dp"
+    android:layout_y="15dp"
+    android:text="Data limite de entrega:"
+    android:textSize="15sp" />
+
+<DatePicker
+    android:id="@+id/addtrabdatepicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="22dp"
+    android:layout_y="44dp" />
+
+<Spinner
+    android:id="@+id/spinnertrab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="-1dp"
+    android:layout_y="190dp" />
+
+<Button
+    android:id="@+id/addtrabvoltar"
+    android:layout_width="66dp"
+    android:layout_height="wrap_content"
+    android:layout_x="53dp"
+    android:layout_y="412dp"
+    android:text="Voltar"
+    android:textSize="15sp" />
+
+<Button
+    android:id="@+id/addtrabadicionar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="170dp"
+    android:layout_y="411dp"
+    android:text="Adicionar"
+    android:textSize="15sp" />
+
+<TextView
+    android:id="@+id/texto_addtrabpercent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="5dp"
+    android:layout_y="368dp"
+    android:text="Percentagem da nota final:"
+    android:textSize="15sp" />
+
+<EditText
+    android:id="@+id/addtrabpercent"
+    android:layout_width="39dp"
+    android:layout_height="wrap_content"
+    android:layout_x="188dp"
+    android:layout_y="356dp"
+    android:ems="10"
+    android:text="0"
+    android:textSize="12sp" >
+
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/texto_addtrabsimbpercent"
+    android:layout_width="19dp"
+    android:layout_height="24dp"
+    android:layout_x="236dp"
+    android:layout_y="365dp"
+    android:text="%"
+    android:textSize="15sp" />
+
+<CheckBox
+    android:id="@+id/addtrabentregadigital"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="3dp"
+    android:layout_y="308dp"
+    android:text="Entrega via Digital (Moodle, e-mail, etc.)" />
+
+<Button
+    android:id="@+id/addtrabhoraentrega"
+    android:layout_width="159dp"
+    android:layout_height="wrap_content"
+    android:layout_x="68dp"
+    android:layout_y="248dp"
+    android:text="Hora limite de entrega:" />
+
+</AbsoluteLayout>

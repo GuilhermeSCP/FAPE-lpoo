@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addteste"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android1:id="@+id/reset"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_x="0dp"
+        android1:layout_y="22dp"
+        android1:text="Apagar os Dados"
+        android1:textSize="15sp" />
+
+    <Button
+        android1:id="@+id/opcoesvoltar"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_x="0dp"
+        android1:layout_y="381dp"
+        android1:text="Voltar"
+        android1:textSize="15sp" />
+
+</AbsoluteLayout>

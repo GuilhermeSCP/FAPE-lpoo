@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget164"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/removerdiscvoltar"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="299dp"
+        android:text="Voltar"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/removerdiscremover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="182dp"
+        android:layout_y="299dp"
+        android:text="Remover"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/spinnerremoverdisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="178dp" />
+
+    <TextView
+        android:id="@+id/textoselecdisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="146dp"
+        android:text="Escolher disciplina:"
+        android:textSize="15sp" />
+
+</AbsoluteLayout>
